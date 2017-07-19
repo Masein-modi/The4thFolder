@@ -65,46 +65,49 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NUMBER OF PILLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-VQ-EHy">
-                                <rect key="frame" x="45" y="358.5" width="285" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NUMBER OF PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-VQ-EHy">
+                                <rect key="frame" x="45" y="358.5" width="122" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqQ-yN-rKC">
-                                <rect key="frame" x="0.0" y="395.5" width="375" height="216"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="216" id="eNT-6G-Vlr"/>
-                                    <constraint firstAttribute="width" constant="375" id="paq-hV-JlF"/>
-                                </constraints>
+                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqQ-yN-rKC">
+                                <rect key="frame" x="0.0" y="434" width="375" height="216"/>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZt-gD-6P3">
+                                <rect key="frame" x="45" y="390.5" width="71" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Set number"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AeH-cs-wrv" firstAttribute="centerX" secondItem="a2e-Xt-WBg" secondAttribute="centerX" id="2jx-Ee-pjK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="a2e-Xt-WBg" secondAttribute="trailing" constant="29" id="3D3-fD-4vz"/>
-                            <constraint firstItem="nof-KS-1ie" firstAttribute="top" secondItem="a2e-Xt-WBg" secondAttribute="bottom" constant="15" id="3NM-Pb-5RD"/>
+                            <constraint firstAttribute="trailing" secondItem="dqQ-yN-rKC" secondAttribute="trailing" id="4LY-Yw-YeN"/>
                             <constraint firstItem="k3N-DF-cqZ" firstAttribute="top" secondItem="0qt-u3-qNh" secondAttribute="bottom" constant="20" id="7wl-0Z-1io"/>
-                            <constraint firstItem="dqQ-yN-rKC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9C6-fJ-ei2"/>
                             <constraint firstItem="AeH-cs-wrv" firstAttribute="top" secondItem="k3N-DF-cqZ" secondAttribute="bottom" constant="15" id="AxS-Tg-EYB"/>
                             <constraint firstItem="a1Z-VQ-EHy" firstAttribute="top" secondItem="2l1-JR-JRO" secondAttribute="bottom" constant="25" id="Blb-8x-MdR"/>
                             <constraint firstItem="AeH-cs-wrv" firstAttribute="centerX" secondItem="k3N-DF-cqZ" secondAttribute="centerX" id="DOl-HD-OYV"/>
                             <constraint firstItem="nof-KS-1ie" firstAttribute="top" secondItem="a2e-Xt-WBg" secondAttribute="bottom" constant="20" id="Jbe-M3-66N"/>
                             <constraint firstItem="2l1-JR-JRO" firstAttribute="top" secondItem="nof-KS-1ie" secondAttribute="bottom" constant="15" id="Lpg-qa-exu"/>
-                            <constraint firstItem="a1Z-VQ-EHy" firstAttribute="trailing" secondItem="2l1-JR-JRO" secondAttribute="trailing" id="Mu2-j2-YZg"/>
                             <constraint firstItem="2l1-JR-JRO" firstAttribute="trailing" secondItem="nof-KS-1ie" secondAttribute="trailing" id="Mxe-ab-yNi"/>
                             <constraint firstItem="0qt-u3-qNh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NEK-MN-wuO"/>
+                            <constraint firstItem="KZt-gD-6P3" firstAttribute="leading" secondItem="a1Z-VQ-EHy" secondAttribute="leading" id="NEo-ay-rxf"/>
                             <constraint firstItem="a1Z-VQ-EHy" firstAttribute="leading" secondItem="2l1-JR-JRO" secondAttribute="leading" id="STf-cL-vHi"/>
                             <constraint firstItem="nof-KS-1ie" firstAttribute="leading" secondItem="a2e-Xt-WBg" secondAttribute="leading" id="SUg-fM-rO2"/>
+                            <constraint firstItem="KZt-gD-6P3" firstAttribute="top" secondItem="a1Z-VQ-EHy" secondAttribute="bottom" constant="15" id="TzW-PF-pzK"/>
                             <constraint firstItem="0qt-u3-qNh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="UnJ-Bg-Wh5"/>
                             <constraint firstItem="2l1-JR-JRO" firstAttribute="leading" secondItem="nof-KS-1ie" secondAttribute="leading" id="YhX-du-yLQ"/>
                             <constraint firstItem="a2e-Xt-WBg" firstAttribute="top" secondItem="AeH-cs-wrv" secondAttribute="bottom" constant="25" id="dNf-t6-Lnq"/>
                             <constraint firstItem="k3N-DF-cqZ" firstAttribute="centerX" secondItem="0qt-u3-qNh" secondAttribute="centerX" id="dov-y1-ov5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0qt-u3-qNh" secondAttribute="trailing" constant="80" id="jWl-Iv-NIP"/>
                             <constraint firstItem="a2e-Xt-WBg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="juJ-cS-5z3"/>
+                            <constraint firstItem="dqQ-yN-rKC" firstAttribute="top" secondItem="KZt-gD-6P3" secondAttribute="bottom" constant="15" id="kra-OT-jRv"/>
                             <constraint firstItem="nof-KS-1ie" firstAttribute="trailing" secondItem="a2e-Xt-WBg" secondAttribute="trailing" id="laR-m7-tju"/>
-                            <constraint firstItem="dqQ-yN-rKC" firstAttribute="top" secondItem="a1Z-VQ-EHy" secondAttribute="bottom" constant="20" id="m1j-F0-TI2"/>
-                            <constraint firstAttribute="trailing" secondItem="dqQ-yN-rKC" secondAttribute="trailing" id="u8V-eV-UcQ"/>
+                            <constraint firstItem="dqQ-yN-rKC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m8s-XJ-ADo"/>
                             <constraint firstItem="0qt-u3-qNh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="yOj-37-kFc"/>
                         </constraints>
                     </view>
