@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var images = [UIImageView]()
     @IBOutlet weak var scrollView: UIScrollView!
+   // @IBOutlet weak var TheMasterScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

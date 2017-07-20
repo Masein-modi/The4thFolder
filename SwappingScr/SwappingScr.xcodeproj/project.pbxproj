@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF33A2DD1F20893D00BC6929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A2DC1F20893D00BC6929 /* AppDelegate.swift */; };
+		AF33A2DF1F20893D00BC6929 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A2DE1F20893D00BC6929 /* LoginVC.swift */; };
+		AF33A2E21F20893D00BC6929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF33A2E01F20893D00BC6929 /* Main.storyboard */; };
+		AF33A2E41F20893D00BC6929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF33A2E31F20893D00BC6929 /* Assets.xcassets */; };
+		AF33A2E71F20893D00BC6929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF33A2E51F20893D00BC6929 /* LaunchScreen.storyboard */; };
+		AF33A2F21F20893D00BC6929 /* SwappingScrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A2F11F20893D00BC6929 /* SwappingScrTests.swift */; };
+		AF33A2FD1F20893D00BC6929 /* SwappingScrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A2FC1F20893D00BC6929 /* SwappingScrUITests.swift */; };
+		AF33A30D1F208CD700BC6929 /* MusicLibVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A30C1F208CD700BC6929 /* MusicLibVC.swift */; };
+		AF33A30F1F209CC400BC6929 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33A30E1F209CC400BC6929 /* PlaySongVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF33A2EE1F20893D00BC6929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF33A2D11F20893D00BC6929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF33A2D81F20893D00BC6929;
+			remoteInfo = SwappingScr;
+		};
+		AF33A2F91F20893D00BC6929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF33A2D11F20893D00BC6929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF33A2D81F20893D00BC6929;
+			remoteInfo = SwappingScr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF33A2D91F20893D00BC6929 /* SwappingScr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF33A2DC1F20893D00BC6929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF33A2DE1F20893D00BC6929 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AF33A2E11F20893D00BC6929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF33A2E31F20893D00BC6929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF33A2E61F20893D00BC6929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF33A2E81F20893D00BC6929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF33A2ED1F20893D00BC6929 /* SwappingScrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappingScrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF33A2F11F20893D00BC6929 /* SwappingScrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingScrTests.swift; sourceTree = "<group>"; };
+		AF33A2F31F20893D00BC6929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF33A2F81F20893D00BC6929 /* SwappingScrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappingScrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF33A2FC1F20893D00BC6929 /* SwappingScrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingScrUITests.swift; sourceTree = "<group>"; };
+		AF33A2FE1F20893D00BC6929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF33A30C1F208CD700BC6929 /* MusicLibVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibVC.swift; sourceTree = "<group>"; };
+		AF33A30E1F209CC400BC6929 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF33A2D61F20893D00BC6929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2EA1F20893D00BC6929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2F51F20893D00BC6929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF33A2D01F20893D00BC6929 = {
+			isa = PBXGroup;
+			children = (
+				AF33A2DB1F20893D00BC6929 /* SwappingScr */,
+				AF33A2F01F20893D00BC6929 /* SwappingScrTests */,
+				AF33A2FB1F20893D00BC6929 /* SwappingScrUITests */,
+				AF33A2DA1F20893D00BC6929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF33A2DA1F20893D00BC6929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF33A2D91F20893D00BC6929 /* SwappingScr.app */,
+				AF33A2ED1F20893D00BC6929 /* SwappingScrTests.xctest */,
+				AF33A2F81F20893D00BC6929 /* SwappingScrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF33A2DB1F20893D00BC6929 /* SwappingScr */ = {
+			isa = PBXGroup;
+			children = (
+				AF33A2DC1F20893D00BC6929 /* AppDelegate.swift */,
+				AF33A2DE1F20893D00BC6929 /* LoginVC.swift */,
+				AF33A2E01F20893D00BC6929 /* Main.storyboard */,
+				AF33A2E31F20893D00BC6929 /* Assets.xcassets */,
+				AF33A2E51F20893D00BC6929 /* LaunchScreen.storyboard */,
+				AF33A2E81F20893D00BC6929 /* Info.plist */,
+				AF33A30C1F208CD700BC6929 /* MusicLibVC.swift */,
+				AF33A30E1F209CC400BC6929 /* PlaySongVC.swift */,
+			);
+			path = SwappingScr;
+			sourceTree = "<group>";
+		};
+		AF33A2F01F20893D00BC6929 /* SwappingScrTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF33A2F11F20893D00BC6929 /* SwappingScrTests.swift */,
+				AF33A2F31F20893D00BC6929 /* Info.plist */,
+			);
+			path = SwappingScrTests;
+			sourceTree = "<group>";
+		};
+		AF33A2FB1F20893D00BC6929 /* SwappingScrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF33A2FC1F20893D00BC6929 /* SwappingScrUITests.swift */,
+				AF33A2FE1F20893D00BC6929 /* Info.plist */,
+			);
+			path = SwappingScrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF33A2D81F20893D00BC6929 /* SwappingScr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF33A3011F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScr" */;
+			buildPhases = (
+				AF33A2D51F20893D00BC6929 /* Sources */,
+				AF33A2D61F20893D00BC6929 /* Frameworks */,
+				AF33A2D71F20893D00BC6929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwappingScr;
+			productName = SwappingScr;
+			productReference = AF33A2D91F20893D00BC6929 /* SwappingScr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF33A2EC1F20893D00BC6929 /* SwappingScrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF33A3041F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScrTests" */;
+			buildPhases = (
+				AF33A2E91F20893D00BC6929 /* Sources */,
+				AF33A2EA1F20893D00BC6929 /* Frameworks */,
+				AF33A2EB1F20893D00BC6929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF33A2EF1F20893D00BC6929 /* PBXTargetDependency */,
+			);
+			name = SwappingScrTests;
+			productName = SwappingScrTests;
+			productReference = AF33A2ED1F20893D00BC6929 /* SwappingScrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF33A2F71F20893D00BC6929 /* SwappingScrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF33A3071F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScrUITests" */;
+			buildPhases = (
+				AF33A2F41F20893D00BC6929 /* Sources */,
+				AF33A2F51F20893D00BC6929 /* Frameworks */,
+				AF33A2F61F20893D00BC6929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF33A2FA1F20893D00BC6929 /* PBXTargetDependency */,
+			);
+			name = SwappingScrUITests;
+			productName = SwappingScrUITests;
+			productReference = AF33A2F81F20893D00BC6929 /* SwappingScrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF33A2D11F20893D00BC6929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Masein Mody";
+				TargetAttributes = {
+					AF33A2D81F20893D00BC6929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AF33A2EC1F20893D00BC6929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF33A2D81F20893D00BC6929;
+					};
+					AF33A2F71F20893D00BC6929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF33A2D81F20893D00BC6929;
+					};
+				};
+			};
+			buildConfigurationList = AF33A2D41F20893D00BC6929 /* Build configuration list for PBXProject "SwappingScr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF33A2D01F20893D00BC6929;
+			productRefGroup = AF33A2DA1F20893D00BC6929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF33A2D81F20893D00BC6929 /* SwappingScr */,
+				AF33A2EC1F20893D00BC6929 /* SwappingScrTests */,
+				AF33A2F71F20893D00BC6929 /* SwappingScrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF33A2D71F20893D00BC6929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF33A2E71F20893D00BC6929 /* LaunchScreen.storyboard in Resources */,
+				AF33A2E41F20893D00BC6929 /* Assets.xcassets in Resources */,
+				AF33A2E21F20893D00BC6929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2EB1F20893D00BC6929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2F61F20893D00BC6929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF33A2D51F20893D00BC6929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF33A30D1F208CD700BC6929 /* MusicLibVC.swift in Sources */,
+				AF33A30F1F209CC400BC6929 /* PlaySongVC.swift in Sources */,
+				AF33A2DF1F20893D00BC6929 /* LoginVC.swift in Sources */,
+				AF33A2DD1F20893D00BC6929 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2E91F20893D00BC6929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF33A2F21F20893D00BC6929 /* SwappingScrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF33A2F41F20893D00BC6929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF33A2FD1F20893D00BC6929 /* SwappingScrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF33A2EF1F20893D00BC6929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF33A2D81F20893D00BC6929 /* SwappingScr */;
+			targetProxy = AF33A2EE1F20893D00BC6929 /* PBXContainerItemProxy */;
+		};
+		AF33A2FA1F20893D00BC6929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF33A2D81F20893D00BC6929 /* SwappingScr */;
+			targetProxy = AF33A2F91F20893D00BC6929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF33A2E01F20893D00BC6929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF33A2E11F20893D00BC6929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF33A2E51F20893D00BC6929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF33A2E61F20893D00BC6929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF33A2FF1F20893D00BC6929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF33A3001F20893D00BC6929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF33A3021F20893D00BC6929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwappingScr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF33A3031F20893D00BC6929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwappingScr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF33A3051F20893D00BC6929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwappingScrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwappingScr.app/SwappingScr";
+			};
+			name = Debug;
+		};
+		AF33A3061F20893D00BC6929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwappingScrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwappingScr.app/SwappingScr";
+			};
+			name = Release;
+		};
+		AF33A3081F20893D00BC6929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwappingScrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwappingScr;
+			};
+			name = Debug;
+		};
+		AF33A3091F20893D00BC6929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwappingScrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = its.SwappingScrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwappingScr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF33A2D41F20893D00BC6929 /* Build configuration list for PBXProject "SwappingScr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF33A2FF1F20893D00BC6929 /* Debug */,
+				AF33A3001F20893D00BC6929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF33A3011F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF33A3021F20893D00BC6929 /* Debug */,
+				AF33A3031F20893D00BC6929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF33A3041F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF33A3051F20893D00BC6929 /* Debug */,
+				AF33A3061F20893D00BC6929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF33A3071F20893D00BC6929 /* Build configuration list for PBXNativeTarget "SwappingScrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF33A3081F20893D00BC6929 /* Debug */,
+				AF33A3091F20893D00BC6929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF33A2D11F20893D00BC6929 /* Project object */;
+}
