@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,9 +28,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="U9d-JG-SNA">
                                 <rect key="frame" x="0.0" y="567" width="375" height="100"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F42-a6-plv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="ZGh-Le-2vH">
                                 <rect key="frame" x="241" y="20" width="134" height="101"/>
                                 <constraints>
@@ -37,6 +35,9 @@
                                     <constraint firstAttribute="width" constant="134" id="fMe-hO-tj0"/>
                                 </constraints>
                             </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F42-a6-plv">
+                                <rect key="frame" x="66" y="0.0" width="243" height="667"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -44,15 +45,16 @@
                             <constraint firstItem="U9d-JG-SNA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7xC-04-h6K"/>
                             <constraint firstAttribute="trailing" secondItem="ZGh-Le-2vH" secondAttribute="trailing" id="89u-zw-7ou"/>
                             <constraint firstItem="1ky-JD-RSc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8ku-bM-KRQ"/>
+                            <constraint firstItem="F42-a6-plv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="9ZY-NS-Lti"/>
                             <constraint firstAttribute="trailing" secondItem="U9d-JG-SNA" secondAttribute="trailing" id="CgR-qv-6ZY"/>
-                            <constraint firstItem="F42-a6-plv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="F76-lr-c7q"/>
                             <constraint firstItem="ZGh-Le-2vH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LzY-B1-A7I"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F42-a6-plv" secondAttribute="bottom" id="UIN-nc-V02"/>
                             <constraint firstAttribute="trailing" secondItem="1ky-JD-RSc" secondAttribute="trailing" id="Wxr-qW-FUX"/>
-                            <constraint firstAttribute="trailing" secondItem="F42-a6-plv" secondAttribute="trailing" id="dyI-Lg-KH3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F42-a6-plv" secondAttribute="bottom" id="jAp-LM-ZEF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1ky-JD-RSc" secondAttribute="bottom" id="lE5-Be-Hht"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U9d-JG-SNA" secondAttribute="bottom" id="qfx-RJ-ha6"/>
-                            <constraint firstItem="F42-a6-plv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tzt-oe-JVH"/>
+                            <constraint firstItem="F42-a6-plv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="tUk-vR-cbk"/>
+                            <constraint firstItem="F42-a6-plv" firstAttribute="centerY" secondItem="1ky-JD-RSc" secondAttribute="centerY" id="yLk-RQ-KFk"/>
+                            <constraint firstItem="F42-a6-plv" firstAttribute="centerX" secondItem="1ky-JD-RSc" secondAttribute="centerX" id="zPR-qN-q3W"/>
                         </constraints>
                     </view>
                     <connections>

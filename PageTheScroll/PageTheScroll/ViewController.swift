@@ -19,18 +19,22 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
+        print(scrollView.frame.size.width)
+        print(scrollView.frame.midX)
+        print(view.frame.midX)
         for x in 0...2{
             let image = UIImage(named: "icon\(x).png")
             let imageview = UIImageView(image: image)
             images.append(imageview)
             
             var newX : CGFloat = 0.0
-            newX = view.frame.midX + view.frame.width * CGFloat(x)
+            newX = scrollView.frame.midX + scrollView.frame.size.width * CGFloat(x)
+            print(newX)
             scrollView.addSubview(imageview)
-            imageview.frame = CGRect(x: newX - 75, y: view.frame.size.height/2 - 75, width: 150, height: 150)
+            imageview.frame = CGRect(x: newX - 140, y: scrollView.frame.size.height/2 - 75, width: 150, height: 150)
         }
         scrollView.clipsToBounds = false  // video 44 2 daqiqebakhar
+        scrollView.backgroundColor = UIColor.brown
         
         scrollView.contentSize = CGSize(width: view.frame.size.width * 3, height: view.frame.size.height)
     }
