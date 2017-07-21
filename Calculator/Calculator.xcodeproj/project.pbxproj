@@ -14,6 +14,7 @@
 		AF37D3CF1F20F77C00FC8266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF37D3CD1F20F77C00FC8266 /* LaunchScreen.storyboard */; };
 		AF37D3DA1F20F77C00FC8266 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D3D91F20F77C00FC8266 /* CalculatorTests.swift */; };
 		AF37D3E51F20F77C00FC8266 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D3E41F20F77C00FC8266 /* CalculatorUITests.swift */; };
+		AF37D3F31F21E89200FC8266 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF37D3F21F21E89200FC8266 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF37D3E01F20F77C00FC8266 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF37D3E41F20F77C00FC8266 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		AF37D3E61F20F77C00FC8266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF37D3F21F21E89200FC8266 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AF37D3C31F20F77C00FC8266 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				AF37D3F21F21E89200FC8266 /* Minecraft.ttf */,
 				AF37D3C41F20F77C00FC8266 /* AppDelegate.swift */,
 				AF37D3C61F20F77C00FC8266 /* ViewController.swift */,
 				AF37D3C81F20F77C00FC8266 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				AF37D3CF1F20F77C00FC8266 /* LaunchScreen.storyboard in Resources */,
 				AF37D3CC1F20F77C00FC8266 /* Assets.xcassets in Resources */,
+				AF37D3F31F21E89200FC8266 /* Minecraft.ttf in Resources */,
 				AF37D3CA1F20F77C00FC8266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
