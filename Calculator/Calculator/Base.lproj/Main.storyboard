@@ -191,9 +191,17 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qga-Gz-QG8">
+                                <rect key="frame" x="33" y="33" width="248" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qga-Gz-QG8" firstAttribute="centerX" secondItem="vQw-JC-DuI" secondAttribute="centerX" id="5yn-bm-ABP"/>
+                            <constraint firstItem="qga-Gz-QG8" firstAttribute="trailing" secondItem="vQw-JC-DuI" secondAttribute="trailing" constant="-15" id="7hz-z1-7y5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="A0G-gl-lta" secondAttribute="bottom" id="8dh-GP-hfa"/>
                             <constraint firstAttribute="trailing" secondItem="JPY-R0-o7q" secondAttribute="trailing" id="ABW-cw-oL0"/>
                             <constraint firstItem="ikD-GC-Jrn" firstAttribute="centerY" secondItem="6mt-Me-JfK" secondAttribute="centerY" id="EUD-VR-bm6"/>
@@ -203,7 +211,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JPY-R0-o7q" secondAttribute="bottom" id="bg4-vP-TDV"/>
                             <constraint firstItem="6mt-Me-JfK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d1s-Dw-pmr"/>
                             <constraint firstItem="ikD-GC-Jrn" firstAttribute="centerX" secondItem="6mt-Me-JfK" secondAttribute="centerX" id="eab-0a-QzP"/>
+                            <constraint firstItem="qga-Gz-QG8" firstAttribute="leading" secondItem="vQw-JC-DuI" secondAttribute="leading" constant="10" id="hdX-pV-Mm8"/>
                             <constraint firstItem="6mt-Me-JfK" firstAttribute="top" secondItem="vQw-JC-DuI" secondAttribute="bottom" constant="13" id="iky-XE-Vao"/>
+                            <constraint firstItem="qga-Gz-QG8" firstAttribute="centerY" secondItem="vQw-JC-DuI" secondAttribute="centerY" id="lFV-ia-E7b"/>
                             <constraint firstItem="A0G-gl-lta" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t8k-ak-c8q"/>
                             <constraint firstItem="A0G-gl-lta" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="t96-N4-42D"/>
                             <constraint firstAttribute="trailing" secondItem="A0G-gl-lta" secondAttribute="trailing" id="zFN-Ki-bet"/>
