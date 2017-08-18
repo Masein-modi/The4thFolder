@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,20 +19,20 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="kVw-WI-skg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="mJ7-if-03o"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOq-8Z-KXe">
-                                <rect key="frame" x="0.0" y="144" width="375" height="45"/>
+                                <rect key="frame" x="0.0" y="144" width="320" height="45"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Cbx-4Z-rCY">
-                                        <rect key="frame" x="20" y="6" width="335" height="33"/>
+                                        <rect key="frame" x="20" y="6" width="280" height="33"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6R-f4-HHQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="33"/>
@@ -42,12 +42,12 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcW-Ri-hhh">
-                                                <rect key="frame" x="146" y="0.0" width="75" height="33"/>
+                                                <rect key="frame" x="118.5" y="0.0" width="75" height="33"/>
                                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
                                                 <state key="normal" title="Top Songs"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-JN-Fp0">
-                                                <rect key="frame" x="287" y="0.0" width="48" height="33"/>
+                                                <rect key="frame" x="232" y="0.0" width="48" height="33"/>
                                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
                                                 <state key="normal" title="Events"/>
                                             </button>
@@ -64,14 +64,14 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="98" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MAF-pV-fg6">
-                                <rect key="frame" x="0.0" y="189" width="375" height="478"/>
+                                <rect key="frame" x="0.0" y="189" width="320" height="379"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="XpV-vB-jP4">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="98"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="partyCell" rowHeight="98" id="XpV-vB-jP4" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XpV-vB-jP4" id="eOi-dt-jO7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="97.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="97.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="8eR-sw-b0S">
@@ -99,6 +99,10 @@
                                             <constraint firstItem="8eR-sw-b0S" firstAttribute="centerY" secondItem="XpV-vB-jP4" secondAttribute="centerY" id="Ndh-SV-glZ"/>
                                             <constraint firstItem="HsN-Za-g1I" firstAttribute="centerY" secondItem="XpV-vB-jP4" secondAttribute="centerY" id="ucP-t4-IZF"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="videoImage" destination="8eR-sw-b0S" id="PTO-q4-3DO"/>
+                                            <outlet property="videoTitle" destination="HsN-Za-g1I" id="Gkv-0v-atF"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -118,7 +122,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="n1c-Qd-4Hd" kind="showDetail" id="uht-Eh-Dbs"/>
+                        <outlet property="tableView" destination="MAF-pV-fg6" id="BXU-ln-IDZ"/>
+                        <segue destination="n1c-Qd-4Hd" kind="showDetail" identifier="toVideoVC" id="uht-Eh-Dbs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -134,11 +139,11 @@
                         <viewControllerLayoutGuide type="bottom" id="bim-Vr-q5A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JJv-yG-JZB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljC-Ox-5og">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="190" id="ZIX-q6-afQ"/>
@@ -152,6 +157,9 @@
                             <constraint firstItem="ljC-Ox-5og" firstAttribute="leading" secondItem="JJv-yG-JZB" secondAttribute="leading" id="zW2-YG-ToR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="utubeWebView" destination="ljC-Ox-5og" id="cjk-lt-P23"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ah9-0g-lTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

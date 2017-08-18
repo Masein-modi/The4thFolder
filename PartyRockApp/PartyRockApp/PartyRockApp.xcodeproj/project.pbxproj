@@ -15,6 +15,8 @@
 		AF84A33F1F3F2EB500DB3005 /* PartyRockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A33E1F3F2EB500DB3005 /* PartyRockAppTests.swift */; };
 		AF84A34A1F3F2EB600DB3005 /* PartyRockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A3491F3F2EB600DB3005 /* PartyRockAppUITests.swift */; };
 		AF84A35B1F3F423900DB3005 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A35A1F3F423900DB3005 /* VideoVC.swift */; };
+		AF84A35D1F3F45B900DB3005 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A35C1F3F45B900DB3005 /* PartyCell.swift */; };
+		AF84A35F1F3F482800DB3005 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A35E1F3F482800DB3005 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AF84A3491F3F2EB600DB3005 /* PartyRockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRockAppUITests.swift; sourceTree = "<group>"; };
 		AF84A34B1F3F2EB600DB3005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF84A35A1F3F423900DB3005 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		AF84A35C1F3F45B900DB3005 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		AF84A35E1F3F482800DB3005 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 		AF84A3581F3F2EDF00DB3005 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF84A35C1F3F45B900DB3005 /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		AF84A3591F3F2EE600DB3005 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AF84A35E1F3F482800DB3005 /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -287,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF84A35B1F3F423900DB3005 /* VideoVC.swift in Sources */,
+				AF84A35F1F3F482800DB3005 /* PartyRock.swift in Sources */,
 				AF84A32C1F3F2EB500DB3005 /* MainVC.swift in Sources */,
+				AF84A35D1F3F45B900DB3005 /* PartyCell.swift in Sources */,
 				AF84A32A1F3F2EB500DB3005 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,19 @@ import UIKit
 
 class VideoVC: UIViewController {
 
+    @IBOutlet weak var utubeWebView: UIWebView!
+    private var _partyRock :PartyRock!
+    var partyRock :PartyRock {
+        get{
+            return _partyRock
+        }
+        set{ _partyRock = newValue}
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        utubeWebView.loadHTMLString(_partyRock.videoURL, baseURL: nil)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
